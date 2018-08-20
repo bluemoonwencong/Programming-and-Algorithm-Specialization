@@ -1,3 +1,20 @@
+# C++太占空间了
+*.sdf
+*.ipch
+*.pch
+*.log
+
+# 别处摘录
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
+*.swp
+*.opendb
+*.db
+*.suo
+
+## github默认
 # Prerequisites
 *.d
 
@@ -30,3 +47,4 @@
 *.exe
 *.out
 *.app
+
