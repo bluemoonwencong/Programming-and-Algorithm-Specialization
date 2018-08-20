@@ -2,8 +2,9 @@
 //#include <hello.h>;
 using namespace std;
 
-void func1();
-void func2();
+void wk4f1();
+void wk4f2();
+
 
 int main()
 {

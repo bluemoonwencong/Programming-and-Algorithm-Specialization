@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void func1()
+void wk4f1()
 {
 	int n, a[1000];
 	cin >> n;
@@ -43,7 +43,7 @@ void func1()
 	cout << endl;
 }
 
-void func2()
+void wk4f2()
 {
 	int a[10];
 //	cin >> n;
@@ -68,7 +68,7 @@ void func2()
 			bool isOrder = a[j - 1] < a[j];
 			bool isleftEven = a[j - 1] % 2 == 0;
 			bool isrightEven = a[j] % 2 == 0;
-			if ((!isleftEven && isrightEven)||(isOrder && isleftEven==isrightEven))
+			if ((!isleftEven && isrightEven)||(isOrder && isleftEven == isrightEven))
 			{
 				;
 			}
