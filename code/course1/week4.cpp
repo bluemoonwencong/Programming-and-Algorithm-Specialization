@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void wk4f1()
+void week4func1()
 {
 	int n, a[1000];
 	cin >> n;
@@ -43,7 +43,7 @@ void wk4f1()
 	cout << endl;
 }
 
-void wk4f2()
+void week4func2()
 {
 	int a[10];
 //	cin >> n;

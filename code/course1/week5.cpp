@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void wk5f1()
+void week5func1()
 {
 	int input = 0;
 	cin >> input;
@@ -16,7 +16,7 @@ void wk5f1()
 	}
 }
 
-void wk5f2()
+void week5func2()
 {
 	int m, n;
 	cin >> m >> n;
@@ -34,7 +34,7 @@ void wk5f2()
 	cout << "output:" << s << endl;
 }
 
-void wk5f3()
+void week5func3()
 {
 	int k, a[100];
 	cin >> k;
@@ -70,7 +70,7 @@ void wk5f3()
 	cout << "cout10:" << cout10 << endl;
 }
 
-void wk5f4()
+void week5func4()
 {
 	int n, cc;
 	cin >> n;
@@ -82,7 +82,7 @@ void wk5f4()
 //这道题的解法就是反复地除以2，看最低位是1还是0
 //有些知道位运算的同学喜欢用位运算，但其实没必要，因为编译器优化之后的程序其实效率是一样的
 
-void wk5f5()
+void week5func5()
 {
 	int n, a[100];
 	int n, a[100];

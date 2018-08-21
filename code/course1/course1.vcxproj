@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="week4.cpp" />
+    <ClCompile Include="week5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h" />
