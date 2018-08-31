@@ -1,69 +1,47 @@
 #include<iostream>
+#include<cstring>
 using namespace std;
 
+int mystrlen(char x[]) {
+	int i = 0;
+	while (x[i] != '\0') i++;
+	return i;
+}
 
-
-class myarray;
 int main()
 {
-	int time = 0, casenumber, M;
-	cin >> casenumber >> M;
-	myarray strengtharray;
-	cin >> strengtharray.dragon >> strengtharray.ninja >> strengtharray.iceman >> strengtharray.lion >> strengtharray.wolf;
-	
-	
-	int redstopflag = 0;
+	char s[501] = { '\0' }, table[26] = { '\0' };
+	int count[26];
+	for (int i = 0; i < 26; i++) count[i] = 0;
+	cin.getline(s, 500);
+	cout << s << endl;
+	for (int i = 0; i < mystrlen(s); i++)
+		if (isalpha(s[i]))
+		{
+			bool have = false;
+			int length = mystrlen(table);
+			for (int j = 0; j < length; j++)
+				if (tolower(s[i]) == table[j]) { count[j]++; have = true; }
+			if (have == false) { table[length] = tolower(s[i]); count[length]++; }
+		}
 
-	warrior man;
-	headquarter head;
-	man.setcolor();
-	man.setname(time); //"iceman";
-	man.setid();
-	man.setstrength(time);
-	head.settotalnumber(time);
-
-	if (redLeft > 0 && redstopflag == 0)
+	int i = 0;
+	while (count[i] > 0)
 	{
-		cout << time << "red" << name << id << "with strength" << strength << totalnumber << name << "in red headquarter";
-	}
-	else
-	{
-		cout << "red" << "headquarter stops making warriors";
-		redstopflag = 1;
-	}
-	
+		cout << table[i] << ": " << count[i] << endl;
+		i++;
+	}//²é¿´
 
-
-
-
-
+	int flag = 0;
+	for (int i = 0; i < 26; i++)
+		if (count[i] == 0)
+			flag = i;
+	for (int i=0;i<flag;i++)
+		for(int j=1;j<flag-i;j++)
+			if ()
 
 	system("pause");
 	return 0;
 }
 
-
-
-class myarray{
-public:
-	int dragon, ninja, iceman, lion, wolf;
-};
-
-class warrior {
-public:
-	char name[10], color[5];
-	int id, strength;
-	warrior()
-	{
-		name[0] = { '\0' };
-		color[0] = { '\0' };
-		id = strength = 0;
-	}
-};
-class headquarter
-{
-public:
-	int number[5] = { 0,0,0,0,0 };
-};
-
-
+// zab&dcAab&c9defgb
