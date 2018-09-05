@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upload", "upload\upload.vcxproj", "{FE3B88CC-FB8F-4B63-AFD4-544A71A2EC88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "note", "note\note.vcxproj", "{F7053009-7A7C-446D-994C-1E1FDC840F02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{FE3B88CC-FB8F-4B63-AFD4-544A71A2EC88}.Release|x64.Build.0 = Release|x64
 		{FE3B88CC-FB8F-4B63-AFD4-544A71A2EC88}.Release|x86.ActiveCfg = Release|Win32
 		{FE3B88CC-FB8F-4B63-AFD4-544A71A2EC88}.Release|x86.Build.0 = Release|Win32
+		{F7053009-7A7C-446D-994C-1E1FDC840F02}.Debug|x64.ActiveCfg = Debug|x64
+		{F7053009-7A7C-446D-994C-1E1FDC840F02}.Debug|x64.Build.0 = Debug|x64
+		{F7053009-7A7C-446D-994C-1E1FDC840F02}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7053009-7A7C-446D-994C-1E1FDC840F02}.Debug|x86.Build.0 = Debug|Win32
+		{F7053009-7A7C-446D-994C-1E1FDC840F02}.Release|x64.ActiveCfg = Release|x64
+		{F7053009-7A7C-446D-994C-1E1FDC840F02}.Release|x64.Build.0 = Release|x64
+		{F7053009-7A7C-446D-994C-1E1FDC840F02}.Release|x86.ActiveCfg = Release|Win32
+		{F7053009-7A7C-446D-994C-1E1FDC840F02}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

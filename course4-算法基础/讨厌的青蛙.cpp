@@ -2,6 +2,12 @@
 #include <algorithm>
 using namespace std;
 
+/*
+直接枚举所有可能的直线，还要枚举步长，O(n^3)，不可行。
+还是一样，要解析！
+这次的策略重点：合理排除不可能情况，二分搜索
+*/
+
 struct Plants { int x, y; };
 Plants plants[5000];
 int r, c, n;
