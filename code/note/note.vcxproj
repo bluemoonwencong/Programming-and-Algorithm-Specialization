@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -115,6 +115,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="note1.cpp" />
+    <ClCompile Include="note10.cpp" />
+    <ClCompile Include="note2.cpp" />
+    <ClCompile Include="note3.cpp" />
+    <ClCompile Include="note4.cpp" />
+    <ClCompile Include="note5.cpp" />
+    <ClCompile Include="note6.cpp" />
+    <ClCompile Include="note7.cpp" />
+    <ClCompile Include="note8.cpp" />
+    <ClCompile Include="note9.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myfunction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
